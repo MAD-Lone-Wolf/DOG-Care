@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Navigation extends AppCompatActivity {
 
-    private Button logout,myaccount;
+    private Button logout,myaccount,healthrecords;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,19 @@ public class Navigation extends AppCompatActivity {
 
         logout = (Button) findViewById(R.id.signOut);
         myaccount = (Button) findViewById(R.id.myaccount);
+        healthrecords = (Button) findViewById(R.id.healthrecords);
 
+        healthrecords.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()){
+                    case R.id.healthrecords:
+                        startActivity(new Intent(Navigation.this, addhealthrecords.class));
+                        Toast.makeText(Navigation.this, "Transfer to the Add Health Records Page", Toast.LENGTH_SHORT).show();
+
+                }
+            }
+        });
 
         myaccount.setOnClickListener(new View.OnClickListener() {
             @Override
