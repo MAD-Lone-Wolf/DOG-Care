@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857207784470",
+    "firebase_url": "https://dodcare-f904b-default-rtdb.firebaseio.com",
+    "project_id": "dodcare-f904b",
+    "storage_bucket": "dodcare-f904b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857207784470:android:8f77af8c7a59fdbd3a6137",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857207784470-3fmnek5sigsr2pnt2lk8qot6i2i7i71j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBNOgbek-QRP7zTW2CoY8MbzmKrlPTdvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857207784470-3fmnek5sigsr2pnt2lk8qot6i2i7i71j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
